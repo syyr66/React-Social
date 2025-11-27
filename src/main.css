@@ -9,6 +9,14 @@ body {
 button {
   font-family: 'Roboto', sans-serif;
   font-size: inherit;
+  border: none;
+
+  width: 110px;
+  line-height: 1.8rem;
+  font-weight: 500;
+  border-radius: var(--border-radius-s);
+  cursor: pointer;
+  background-color: #fff;
 }
 
 a {
@@ -26,6 +34,26 @@ a:visited {
   text-decoration: none;
 }
 
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(179,179,179);
+}
 
 :root {
   --border-radius-s: 4px;
@@ -33,10 +61,9 @@ a:visited {
   --border-radius-l: 12px;
   --border-radius-xl: 15px;
 
-  --icon-size: 12px;
+  --avatar-size: 1.8rem;
 }
 
-.icon {
-  width: var(--icon-size);
-  height: var(--icon-size);
+.sidebar__hr-line {
+  color: aliceblue;
 }

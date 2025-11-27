@@ -19,6 +19,7 @@
   background-color: #fff;
   border-radius: var(--border-radius-xl);
   height: 40px;
+  margin-right: 10px;
   flex: 5;
   display: flex;
   align-items: center;
@@ -31,7 +32,7 @@
 
 .topbar__search-icon {
   color: black;
-  padding: 0 4px;
+  padding: 0 6px;
 }
 
 .topbar__center input {
@@ -61,24 +62,24 @@
 }
 
 .topbar__category-option {
-  width: 100px;
-  height: 100%;
-  line-height: 1.8rem;
-  font-weight: 500;
-  width: 90px;
-  border: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: var(--border-radius-s);
   background-color: #ffffff;
-  text-align: center;
-  cursor: pointer;
 }
 
 .topbar__category-focused {
   background-color: #636CCB;
   color: white;
+}
+
+.topbar__category-focused:hover {
+  background-color: #50589C;
+}
+
+.topbar__category-unfocused:hover {
+  background-color: #e4e4e4;
+}
+
+.topbar__category-unfocused:hover .topbar__category-toggle {
+  background-color: #e4e4e4;
 }
 
 .topbar__menu-icons {

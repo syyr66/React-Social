@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './topbar.css';
 /*mui imports*/
 import SearchIcon from '@mui/icons-material/Search';
@@ -7,6 +7,8 @@ import NotificationsIcon from '@mui/icons-material/Notifications';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 
 function TopBar() {
+  const [topbarCategory, setTopbarCategory] = useState(1);
+
   return (
     <div className="topbar">
       <div className="topbar-container">
@@ -18,8 +20,29 @@ function TopBar() {
         <div className="topbar__right">
           <div className="topbar__toggle-container">
             <div className="topbar__category-toggle">
-              <button className="topbar__category-option topbar__feed">Your feed</button>
-              <button className="topbar__category-option topbar__trending topbar__category-focused">Trending</button>
+              <button 
+                onClick={() => {setTopbarCategory(0)}} 
+                className={
+                  "topbar__category-option topbar__feed " + 
+                  ( topbarCategory === 0 
+                  ? "topbar__category-focused" 
+                  : "topbar__category-unfocused" )
+                }
+              >
+                Your feed
+              </button>
+              
+              <button 
+                onClick={() => setTopbarCategory(1)} 
+                className={
+                  "topbar__category-option topbar__trending " + 
+                  ( topbarCategory === 1 
+                  ? "topbar__category-focused" 
+                  : "topbar__category-unfocused" )
+                }
+              >
+                Trending🔥
+              </button>
             </div>
           </div>
           <div className="topbar__menu-icons">
