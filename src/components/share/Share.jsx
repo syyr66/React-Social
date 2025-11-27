@@ -6,11 +6,12 @@ import LocationPinIcon from '@mui/icons-material/LocationPin';
 
 function Share() {
   return (
-    <div className='share'>
+    <div className='share box-shadow'>
       <div className="share__wrapper">
         <div className="share__top">
           <img 
             className="share__profile-image profile-image"
+            draggable="false"
             src="/src/assets/pfps/thumbnail.png" 
             alt="profile-image" 
           />

@@ -51,52 +51,12 @@ function SideBar() {
             <span>John Doe</span>
           </li>
           <li>
-            <img className="profile-image" src="/src/assets/pfps/john-doe.png" alt="john-doe" />
-            <span>John Doe</span>
+            <img className="profile-image" src="/src/assets/pfps/anne-smith.png" alt="anne-smith" />
+            <span>Anne Smith</span>
           </li>
           <li>
-            <img className="profile-image" src="/src/assets/pfps/john-doe.png" alt="john-doe" />
-            <span>John Doe</span>
-          </li>
-          <li>
-            <img className="profile-image" src="/src/assets/pfps/john-doe.png" alt="john-doe" />
-            <span>John Doe</span>
-          </li>
-          <li>
-            <img className="profile-image" src="/src/assets/pfps/john-doe.png" alt="john-doe" />
-            <span>John Doe</span>
-          </li>
-          <li>
-            <img className="profile-image" src="/src/assets/pfps/john-doe.png" alt="john-doe" />
-            <span>John Doe</span>
-          </li>
-          <li>
-            <img className="profile-image" src="/src/assets/pfps/john-doe.png" alt="john-doe" />
-            <span>John Doe</span>
-          </li>
-          <li>
-            <img src="/src/assets/pfps/john-doe.png" alt="john-doe" />
-            <span>John Doe</span>
-          </li>
-          <li>
-            <img className="profile-image" src="/src/assets/pfps/john-doe.png" alt="john-doe" />
-            <span>John Doe</span>
-          </li>
-          <li>
-            <img className="profile-image" src="/src/assets/pfps/john-doe.png" alt="john-doe" />
-            <span>John Doe</span>
-          </li>
-          <li>
-            <img className="profile-image" src="/src/assets/pfps/john-doe.png" alt="john-doe" />
-            <span>John Doe</span>
-          </li>
-          <li>
-            <img className="profile-image" src="/src/assets/pfps/john-doe.png" alt="john-doe" />
-            <span>John Doe</span>
-          </li>
-          <li>
-            <img className="profile-image" src="/src/assets/pfps/john-doe.png" alt="john-doe" />
-            <span>John Doe</span>
+            <img className="profile-image" src="/src/assets/pfps/james-brown.png" alt="james-brown" />
+            <span>James Brown</span>
           </li>
         </ul>
       </div>

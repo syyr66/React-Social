@@ -10,6 +10,7 @@
   align-items: center;
   gap: 12px;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 
 .sidebar__categories li:last-child {
@@ -37,5 +38,6 @@
   align-items: center;
   gap: 12px;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 
