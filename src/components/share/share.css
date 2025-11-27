@@ -1,0 +1,87 @@
+.share {
+  width: 100%;
+  height: 170px;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.share__wrapper {
+  padding: 15px;
+}
+
+.share__top {
+  display: flex;
+  align-items: flex-start;
+}
+
+.share__profile-image {
+  width: var(--avatar-size-l);
+  height: var(--avatar-size-l);
+  margin-right: 15px;
+}
+
+.share__textarea {
+  border-radius: var(--border-radius-s);
+  border: none;
+  width: 100%;
+  padding: 8px 12px;
+  min-height: 3.5rem;
+  line-height: normal;
+}
+
+.share__hr-line {
+  margin: 20px;
+}
+
+.share__options {
+  display: flex;
+  margin: 0px 20px;
+  align-items: center;
+}
+
+.share__option {
+  display: flex;
+  align-items: center;
+  margin-right: 25px;
+}
+
+.share__option:last-child {
+  margin-right: 0;
+}
+
+.share__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.share__icon {
+  margin-right: 4px;
+}
+
+.icon__photo-or-video {
+  color: #50589C;
+}
+
+.icon__hashtags {
+  color: #636CCB;
+}
+
+.icon__location {
+  color: #6E8CFB;
+}
+
+.share__option-text {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.share__share-btn {
+  background-color: #636CCB;
+  color: white;
+  
+}
+
+.share__share-btn:hover {
+  background-color: #50589C;
+}

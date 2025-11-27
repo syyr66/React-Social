@@ -63,6 +63,8 @@
 
 .topbar__category-option {
   background-color: #ffffff;
+  padding: 0;
+  width: 115px;
 }
 
 .topbar__category-focused {

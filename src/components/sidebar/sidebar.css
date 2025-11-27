@@ -28,10 +28,8 @@
 }
 
 .sidebar__following-list img {
-  width: var(--avatar-size);
-  height: var(--avatar-size);
-  object-fit: cover;
-  border-radius: 50%;
+  width: var(--avatar-size-s);
+  height: var(--avatar-size-s);
 }
 
 .sidebar__following-list li {

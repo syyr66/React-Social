@@ -42,60 +42,60 @@ function SideBar() {
         </li>
       </ul>
       <button className="sidebar__show-more-btn">Show more...</button>
-      <hr className="sidebar__hr-line" />
+      <hr className="hr-line" />
       <div className="sidebar__following-container">
         <h2>Following</h2>
         <ul className="sidebar__following-list">
           <li>
-            <img src="/src/assets/pfps/user-pfp.png" alt="user-profile" />
+            <img className="profile-image" src="/src/assets/pfps/john-doe.png" alt="john-doe" />
             <span>John Doe</span>
           </li>
           <li>
-            <img src="/src/assets/pfps/user-pfp.png" alt="user-profile" />
+            <img className="profile-image" src="/src/assets/pfps/john-doe.png" alt="john-doe" />
             <span>John Doe</span>
           </li>
           <li>
-            <img src="/src/assets/pfps/user-pfp.png" alt="user-profile" />
+            <img className="profile-image" src="/src/assets/pfps/john-doe.png" alt="john-doe" />
             <span>John Doe</span>
           </li>
           <li>
-            <img src="/src/assets/pfps/user-pfp.png" alt="user-profile" />
+            <img className="profile-image" src="/src/assets/pfps/john-doe.png" alt="john-doe" />
             <span>John Doe</span>
           </li>
           <li>
-            <img src="/src/assets/pfps/user-pfp.png" alt="user-profile" />
+            <img className="profile-image" src="/src/assets/pfps/john-doe.png" alt="john-doe" />
             <span>John Doe</span>
           </li>
           <li>
-            <img src="/src/assets/pfps/user-pfp.png" alt="user-profile" />
+            <img className="profile-image" src="/src/assets/pfps/john-doe.png" alt="john-doe" />
             <span>John Doe</span>
           </li>
           <li>
-            <img src="/src/assets/pfps/user-pfp.png" alt="user-profile" />
+            <img className="profile-image" src="/src/assets/pfps/john-doe.png" alt="john-doe" />
             <span>John Doe</span>
           </li>
           <li>
-            <img src="/src/assets/pfps/user-pfp.png" alt="user-profile" />
+            <img src="/src/assets/pfps/john-doe.png" alt="john-doe" />
             <span>John Doe</span>
           </li>
           <li>
-            <img src="/src/assets/pfps/user-pfp.png" alt="user-profile" />
+            <img className="profile-image" src="/src/assets/pfps/john-doe.png" alt="john-doe" />
             <span>John Doe</span>
           </li>
           <li>
-            <img src="/src/assets/pfps/user-pfp.png" alt="user-profile" />
+            <img className="profile-image" src="/src/assets/pfps/john-doe.png" alt="john-doe" />
             <span>John Doe</span>
           </li>
           <li>
-            <img src="/src/assets/pfps/user-pfp.png" alt="user-profile" />
+            <img className="profile-image" src="/src/assets/pfps/john-doe.png" alt="john-doe" />
             <span>John Doe</span>
           </li>
           <li>
-            <img src="/src/assets/pfps/user-pfp.png" alt="user-profile" />
+            <img className="profile-image" src="/src/assets/pfps/john-doe.png" alt="john-doe" />
             <span>John Doe</span>
           </li>
           <li>
-            <img src="/src/assets/pfps/user-pfp.png" alt="user-profile" />
+            <img className="profile-image" src="/src/assets/pfps/john-doe.png" alt="john-doe" />
             <span>John Doe</span>
           </li>
         </ul>

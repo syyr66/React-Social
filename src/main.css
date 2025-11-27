@@ -11,7 +11,7 @@ button {
   font-size: inherit;
   border: none;
 
-  width: 110px;
+  padding: 0 15px;
   line-height: 1.8rem;
   font-weight: 500;
   border-radius: var(--border-radius-s);
@@ -45,6 +45,21 @@ li {
   padding: 0;
 }
 
+input {
+  font: inherit;
+  outline: none;
+}
+
+textarea {
+  margin: 0;
+  padding: 8px 10px;
+  border: none;
+  outline: none;
+  resize: none;
+  font: inherit;
+  min-height: 3.25rem;
+}
+
 ::-webkit-scrollbar {
   width: 5px;
 }
@@ -61,9 +76,15 @@ li {
   --border-radius-l: 12px;
   --border-radius-xl: 15px;
 
-  --avatar-size: 1.8rem;
+  --avatar-size-s: 1.8rem;
+  --avatar-size-l: 3.25rem;
 }
 
-.sidebar__hr-line {
+.hr-line {
   color: aliceblue;
+}
+
+.profile-image {
+  object-fit: cover;
+  border-radius: 50%;
 }

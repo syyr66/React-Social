@@ -15,7 +15,7 @@ function TopBar() {
         <div className="topbar__left"><a href="#">Social App</a></div>
         <div className="topbar__center">
           <SearchIcon className="icon topbar__search-icon" />
-          <input placeholder="what's up?" />
+          <input placeholder="Try searching for a friend, post or video" />
         </div>
         <div className="topbar__right">
           <div className="topbar__toggle-container">
